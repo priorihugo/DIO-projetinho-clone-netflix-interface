@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FilminhoFlix</title>
-    <link rel="stylesheet" href="style/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body>
     <header>
-        <div class="flex-conteiner">
-            <h1 id="logo">
-                FilminhoFlix
-            </h1>
-            <nav class="nav-menu"> 
-                <a href="">Inicio</a>
-                <a href="">Filmes</a>
-                <a href="">Series</a>
-                <a href="">Documentarios</a>
-            </nav>
-        </div>
+      <div class="flex-conteiner">
+        <h1 id="logo">FilminhoFlix</h1>
+        <nav class="nav-menu">
+          <a href="">Inicio</a>
+          <a href="">Filmes</a>
+          <a href="">Series</a>
+          <a href="">Documentarios</a>
+        </nav>
+      </div>
     </header>
     <main>
-        <div id="destaque">
-            <h1>Em destaque</h1>
-            <div class="texto"> 
-                <h2>Titulo1</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Corrupti dolor sed, facilis sunt autem similique dicta voluptate possimus maxime eum odio quis labore vitae!
-                Facere fugiat laborum accusantium ipsum possimus?</p>
-            </div>
+      <div id="destaque">
+        <h1>Em destaque</h1>
+        <div class="texto">
+          <h2>Titulo1</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti
+            dolor sed, facilis sunt autem similique dicta voluptate possimus
+            maxime eum odio quis labore vitae! Facere fugiat laborum accusantium
+            ipsum possimus?
+          </p>
+          
+          <div class="destaque-btn">
+              <button><i class="fas fa-play"></i>Assista Agora</button>
+            <button><i class="fas fa-info-circle"></i>Mais Informações</button></div>
         </div>
-        <div class="flex-conteiner carrossel">
-            <h2>Para Voce</h2>
-            <div class="botoes">
-                <button onclick="esquerda()">E</button> 
-                <button onclick="direita()">D</button>
-            </div>
-            <div id="carrossel-itens"></div>
+      </div>
+      <div class="flex-conteiner carrossel">
+        <h2>Para Voce</h2>
+        <div class="mov-botoes">
+          <button onclick="esquerda()"><i class="fas fa-angle-left"></i>E</button>
+          <button onclick="direita()"><i class="fas fa-angle-right"></i>D</button>
         </div>
+        <div id="carrossel-itens"></div>
+      </div>
     </main>
+    <script src="https://kit.fontawesome.com/135385dbc6.js" crossorigin="anonymous"></script>
     <script src="carrossel.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

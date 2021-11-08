@@ -1,4 +1,7 @@
-let meuCarrossel = document.getElementById("carrossel-itens");
+//esse código ta meio gambiarra
+
+const meuCarrossel = document.getElementById("carrossel-itens");
+let numSlides=0;
 
 function startCarrossel() {
   for (keys in imagensCarrosel) {
@@ -11,10 +14,12 @@ function startCarrossel() {
     novaDiv.style.backgroundImage = `url(${img})`;
     meuCarrossel.appendChild(novaDiv);
 
+    numSlides++;
     function randomIndex(ar) {
       return Math.floor(Math.random() * ar.length);
     }
   }
+  console.log('numSlides: ' + numSlides)
 }
 startCarrossel();
 ////variaveis de controle
@@ -36,7 +41,7 @@ function esquerda() {
   }
 }
 function direita() {
-  if (slideFinal < 8) {
+  if (slideFinal < numSlides) {
     posiçãoRelativa = posiçãoRelativa - tamanhoDoMovimento;
     meuCarrossel.style.transform = `translateX(${posiçãoRelativa}px)`;
     slideFinal++;
@@ -44,5 +49,4 @@ function direita() {
     console.log("slide inicial: " + slideInicial);
     console.log("slide final: " + slideFinal);
   }
-
 }
