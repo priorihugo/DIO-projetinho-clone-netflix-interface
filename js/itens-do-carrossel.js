@@ -13,7 +13,7 @@ let imagensCarrosel = {
         img1 : 'style/blacksails/mZcSwrDdw6cdOVgXm496DgwrQcQ.jpg',
         img2 : 'style/blacksails/qLxzPcDyWyoS53g1DpKsWo2pbBk.jpg' 
     },
-    '5 Centimeters Per Second' : {
+    'Five Centimeters Per Second' : {
         img1 : 'style/cincocentrimetrosporsegundo/eKqoL4PaZeesxFDaSEiTGq9hKL8.jpg',
         img2 : 'style/cincocentrimetrosporsegundo/gCFzdqvyHRHUIzMyhWiGSSHItWw.jpg',
         img3 : 'style/cincocentrimetrosporsegundo/xy0nnIjaXqSXboYIICzBkfox3yj.jpg'
@@ -33,4 +33,9 @@ let imagensCarrosel = {
         img2 : 'style/watchmen/u0ROjy3KPzMDTipqCrwD8LwkKSQ.jpg',
         img3 : 'style/watchmen/zcCGhnlO4qi8ZqunUHAnYkwUtRX.jpg'
     },
+    'Darker Than Black' : {
+        img1 : 'style/darkerThanBlack/iyxodUUXaeLk0N0siDWHA7rbURk.jpg',
+        img2 : 'style/darkerThanBlack/nMZpe2r8FPBqzGdkuXnR7sTccFz.jpg'
+    },
+    
 }
