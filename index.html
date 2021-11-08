@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FilminhoFlix</title>
     <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/own-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/own-css/owl.theme.default.min.css">
   </head>
   <body>
     <header>
@@ -36,17 +38,16 @@
             <button><i class="fas fa-info-circle"></i>Mais Informações</button></div>
         </div>
       </div>
-      <div class="flex-conteiner carrossel">
+      <div class="css-meuCarrossel">
         <h2>Para Voce</h2>
-        <div class="mov-botoes">
-          <button onclick="esquerda()"><i class="fas fa-angle-left"></i>E</button>
-          <button onclick="direita()"><i class="fas fa-angle-right"></i>D</button>
-        </div>
-        <div id="carrossel-itens"></div>
+        <div id="js-meuCarrossel" class="owl-carousel owl-theme"></div>
       </div>
     </main>
     <script src="https://kit.fontawesome.com/135385dbc6.js" crossorigin="anonymous"></script>
-    <script src="carrossel.js"></script>
-    <script src="script.js"></script>
+    <script src="js/own-js/jquery.min.js"></script>
+    <script src="js/own-js/owl.carousel.min.js"></script>
+    <script src="js/carrossel.js"></script>
+    <script src="js/main.js"></script>
   </body>
+ 
 </html>
